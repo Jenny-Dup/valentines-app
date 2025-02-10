@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const timeDiff = valentinesDay - today;
       const daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
 
-      countdownElement.textContent = `${daysLeft} day(s) until Valentine's Day! 💖`;
+      countdownElement.textContent = `${daysLeft} days until Valentine's Day!`;
   }
   updateCountdown();
 
